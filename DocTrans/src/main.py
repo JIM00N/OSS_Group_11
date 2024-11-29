@@ -16,3 +16,4 @@ if __name__ == "__main__":
     # 고빈도 단어 추출 테스트
     frequent_words = extract_frequent_words(text)
     print("Frequent words:", frequent_words)
+

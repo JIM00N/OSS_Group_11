@@ -10,3 +10,4 @@ def translate(text, src_lang="en", tgt_lang="es"):
     translated_text = tokenizer.decode(translation[0], skip_special_tokens=True)
 
     return translated_text
+
