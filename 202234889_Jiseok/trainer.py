@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import os
 
+
 # 얼굴 데이터 폴더 경로
 data_dir = "face_data"
 
