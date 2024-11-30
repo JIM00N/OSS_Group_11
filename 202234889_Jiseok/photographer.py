@@ -3,7 +3,7 @@ import os
 
 # 얼굴 검출 모델 로드
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-    
+
 # 저장 경로
 data_dir = "face_data"
 if not os.path.exists(data_dir):

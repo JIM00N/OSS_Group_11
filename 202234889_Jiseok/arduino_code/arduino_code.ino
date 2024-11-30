@@ -35,9 +35,11 @@ void loop() {
         tone(piezo, 1000, 200);  // 1000Hz 톤을 200ms 동안 재생
         delay(300);
       }
+
     }
     
     else if (command.startsWith("rotate")) {
+
       // 주인을 바라보기 위해 회전
       char direction[2];
       command.substring(6, 7).toCharArray(direction, 2);
