@@ -11,12 +11,7 @@ This project provides an automatic document translation system utilizing Hugging
 
 ### **Demo or Examples**
 Example of translated text from English to Korean using the system.
-
-Here’s an example of what the output might look like after translation:
-```arduino
-Original text: "Hello, how are you?"
-Translated text: "안녕하세요, 어떻게 지내세요?"
-```
+![Short Demo](https://ibb.co/BcJrjHw)
 
 
 ### **Packages Used**
@@ -52,9 +47,9 @@ The system will ask for text input and the source and target languages.
 
 
 ### **References**
-* Hugging Face Transformers Documentation: https://huggingface.co/docs/transformers
-* OpenCV Documentation: https://opencv.org/
-* Python Hugging Face Tutorial: https://huggingface.co/course
+* Hugging Face Transformers Documentation: <https://huggingface.co/docs/transformers>
+* OpenCV Documentation: <https://opencv.org/>
+* Python Hugging Face Tutorial: <https://huggingface.co/course>
 * Various blog posts and tutorials on text translation models, Hugging Face, and OpenCV.
 
 -----
