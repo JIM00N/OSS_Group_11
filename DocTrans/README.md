@@ -11,7 +11,7 @@ This project provides an automatic document translation system utilizing Hugging
 
 ### **Demo or Examples**
 Example of translated text from English to Korean using the system.
-![Short Demo](https://ibb.co/BcJrjHw)
+![Short Demo](https://ifh.cc/g/po3o6J.png)
 
 
 ### **Packages Used**
