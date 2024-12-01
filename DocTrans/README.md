@@ -10,9 +10,8 @@ This project provides an automatic document translation system utilizing Hugging
 
 
 ### **Demo or Examples**
-Example of translated text from English to Korean using the system.
 ![Short Demo](https://ifh.cc/g/po3o6J.png)
-
+Example of translated text from English to Korean using the system
 
 ### **Packages Used**
 The following Python packages are used in this project. To install them, please run:
