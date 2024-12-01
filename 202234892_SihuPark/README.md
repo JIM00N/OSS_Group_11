@@ -43,6 +43,12 @@ Provide any video with visible lane markings. You can use the sample video I too
 
 ---
 
+## **Sample Results**
+![demo](https://github.com/user-attachments/assets/d09dad01-8c37-41a6-9dbf-4bbe4f6c9416)
+
+
+---
+
 ## **Customization**
 ### **Adjust Region Of Interest**
 Modify the `region_of_interest` function in `utils.py` to change the focus area. Adjust the polygon points to fit your specific video or lane layout.
