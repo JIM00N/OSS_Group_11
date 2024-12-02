@@ -15,8 +15,8 @@ def region_of_interest(edges):
     polygon = np.array([[
     (int(width * 0.2), height),              # DL
     (int(width * 0.8), height),             # DR
-    (int(width * 0.55), int(height * 0.7)),  # UR
-    (int(width * 0.45), int(height * 0.7))   # UL
+    (int(width * 0.55), int(height * 0.75)),  # UR
+    (int(width * 0.45), int(height * 0.75))   # UL
 ]], np.int32)
 
     cv2.fillPoly(mask, polygon, 255)

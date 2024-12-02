@@ -8,6 +8,8 @@ def main():
         print("Error: Could not open the video file.")
         return
     
+    fps = video.get(cv2.CAP_PROP_FPS)
+    delay = int(1000 / fps / 3)
 
     while True:
         # Read a frame from the video
@@ -20,9 +22,9 @@ def main():
         masked_edges = region_of_interest(edges)
         output_frame = detect_lanes(masked_edges, frame)
 
-        cv2.imshow('Lane Detection', output_frame)
+        cv2.imshow('Lane Detection Results', output_frame)
 
-        if cv2.waitKey(8) & 0xFF == ord('q'):
+        if cv2.waitKey(delay) & 0xFF == ord('q'):
             break
 
 
