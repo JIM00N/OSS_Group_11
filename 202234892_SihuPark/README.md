@@ -72,3 +72,8 @@ polygon = np.array([[
 ## **Future Improvements**
 - Implement distortion correction using camera calibration.
 - Support real-time video from a webcam or live feed.
+
+
+## **References**
+- OpenCV Documentation: [Link](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
+- LearnOpenCV - How to Find Frame Rate or Frames Per Second (FPS) in OpenCV: [Link](https://learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/)
