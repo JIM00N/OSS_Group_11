@@ -74,7 +74,7 @@ for i in range(len(boxes)):
         cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)
         cv2.putText(img, label, (x, y - 10), font, 1, color, 2)
 
-# Resize the display window
+# Resize the display window.
 window_name = 'Objects'
 cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)  # Create a resizable window
 cv2.resizeWindow(window_name, 800, 600)  # Set the desired size
