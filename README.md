@@ -10,4 +10,4 @@
 
 - 신현호, HYEONHO SHIN
 
-- 임서희, seohe
+- 임서희, seohe.
